@@ -1,4 +1,4 @@
-import java.util.Scanner; // import Scanner
+import java.util.Scanner;
 
 public class Perkenalan {
     public static void main(String[] args) {
@@ -8,17 +8,18 @@ public class Perkenalan {
         String nama = scanner.nextLine();
 
         System.out.print("Masukkan NIM Anda: ");
-         String NIM = scanner.nextLine();
+        String NIM = scanner.nextLine();
 
         System.out.print("Masukkan umur Anda: ");
         int umur = scanner.nextInt();
 
         System.out.print("Masukkan tinggi badan Anda: ");
         double tinggi = scanner.nextDouble();
+        scanner.nextLine();
 
+        System.out.print("Masukkan tempat tinggal: ");
+        String kota = scanner.nextLine();
 
-
-
-        System.out.println("Halo " + nama + ", NIM " + NIM + ", umur " + umur + " tahun, tinggi " + tinggi + " cm.");
+        System.out.println("Halo " + nama + ", NIM " + NIM + ", umur " + umur + " tahun, tinggi " + tinggi + " cm, tinggal di " + kota + ".");
     }
-    }
+}
