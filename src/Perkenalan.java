@@ -13,8 +13,12 @@ public class Perkenalan {
         System.out.print("Masukkan umur Anda: ");
         int umur = scanner.nextInt();
 
+        System.out.print("Masukkan tinggi badan Anda: ");
+        double tinggi = scanner.nextDouble();
 
 
-        System.out.println("Halo " + nama + ", NIM " + NIM + ", umur " + umur + " tahun.");
+
+
+        System.out.println("Halo " + nama + ", NIM " + NIM + ", umur " + umur + " tahun, tinggi " + tinggi + " cm.");
     }
     }
